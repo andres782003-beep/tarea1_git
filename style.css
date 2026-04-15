@@ -31,7 +31,10 @@ p {
     width: 80%;
     max-width: 600px;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px; /* espacio debajo de la imagen */
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* centra la imagen */
 }
 
 .boton {
@@ -42,6 +45,7 @@ p {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    margin-top: 20px; /* espacio arriba del botón */
 }
 
 .boton:hover {
